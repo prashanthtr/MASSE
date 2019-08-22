@@ -93,7 +93,7 @@ export var agent_c = function ( constraints ){
     agent.respond = function( ext_seq, ind ){
 
         //console.log("ind is " + ind)
-        
+
         if( ind == 0){
             console.log("ext seq " + ext_seq)
             // the beginning of the bar where the agent makes a split second
@@ -112,7 +112,7 @@ export var agent_c = function ( constraints ){
                 console.log("selecting new pattern")
                //set hit generation parameters
                 agent.density = interevent_arrival(ext_seq);
-                agent.t_since_last_hit = 0; 
+                agent.t_since_last_hit = 0;
             }
         }
         // agent generates a hit based on the current density, and the state
