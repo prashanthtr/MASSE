@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <!--  Include the raphael library from the jslibs directory  -->
+
+    <!-- <script type="text/javascript" src="jslibs/raphael.js"></script> -->
+    <!--  Use the require.js module loader, and tell it where our main
+    JavaScript file is  -->
+
+    <script type="module" src="training_wsystem_offbeat.js"></script>
+
+    <title> Drum - Trance</title>
+  </head>
+
+  <body>
+    <header>
+      <!-- Drum-trance : A system for automating drum transitions -->
+      <br>
+    </header>
+
+    Training phase with system...
+    Press S.
+    <input type="range" min="0" max="36" step="1"
+                               value="0" id="cc" hidden> </input>
+
+     <input type="text" value="0" id="cc_goal" hidden> </input> <br>
+     <input type="text" value="0" id="complexity_val"  hidden> </input>
+
+    <br>
+
+     <input type="text" value="0" id="lows" hidden> </input>
+    <input type="text" value="1" id="highs" hidden> </input>
+    <br>
+     <input type="text" value="0" id="low" hidden> </input>
+    <input type="text" value="0.1" id="high" hidden> </input>
+    <br>
+
+
+     <input type="text" value="1000001010000010"
+                         id="userInput" hidden> </input>
+
+    <div height="600" width="800" id="display">
+
+      <p id="rhythms" hidden/>
+
+    </div>
+
+  </body>
+
+</html>
