@@ -14,3 +14,11 @@ The following files are provided in this repository:
 4) Agent_poisson - The control agent that listens and copies the density of the played by the musicians
 
 The remaining agent implementations will be provided on request.
+
+
+The link to the experiment performed with the agent are available at :
+https://www.dropbox.com/sh/1f4hy2socudc5at/AABE8jDL5GNajL3dsaAd1eiGa?dl=0
+
+The link to the interivews with the musicians that motivated the agent
+development are available at :
+https://www.dropbox.com/sh/600yzjg7hbpg9jy/AAAr-J3MMVozuDBubI0Nmqpha?dl=0
