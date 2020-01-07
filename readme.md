@@ -11,7 +11,11 @@ The following files are provided in this repository:
 
 3) Training_wsystem_offbeat.js - an agent that repeatedly produces bass hits on off-beats.
 
-4) Agent_poisson - The control agent that listens and copies the density of the played by the musicians
+4) Agent_poisson - The control agent that listens and copies the density of the
+played by the musicians
+
+5) Performances from the experiments to evaluate musicians' sense of co-creation
+with the agent.
 
 The remaining agent implementations will be provided on request.
 
