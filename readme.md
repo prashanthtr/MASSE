@@ -1,9 +1,8 @@
 
-The system implementation that was used to experimentally study the issues of
-human-agent partnership in musical co-improvisation is provided in the
-repository.
+This is a sample API of the system implementation that was used to experimentally study the issues of
+human-agent diaologues in music.
 
-The following files are provided in this repository:
+The following support and agent model files are provided in this repository:
 
 1) Training.js - A background input for humans to play solo play rhythmic solos.
 
@@ -16,9 +15,6 @@ played by the musicians
 
 5) Performances from the experiments to evaluate musicians' sense of co-creation
 with the agent.
-
-The remaining agent implementations will be provided on request.
-
 
 The link to the experiment performed with the agent are available at :
 https://www.dropbox.com/sh/1f4hy2socudc5at/AABE8jDL5GNajL3dsaAd1eiGa?dl=0
